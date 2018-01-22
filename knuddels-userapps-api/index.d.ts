@@ -2690,3 +2690,7 @@ declare class VideoChannelData {
 	getStreamingVideoUsers(): User[];
 }
 
+/**
+ * Importiert eine externe JavaScript-Datei, relativ zum aktuellen Verzeichnis.
+ */
+declare function require(file: string): void;
